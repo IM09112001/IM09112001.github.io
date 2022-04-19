@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #292929;
+}
+
+ul {
+    list-style: none;
+}
+
+a, input, button {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+a, input[type="submit"], button {
+    cursor: pointer;
+}
+
+button {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+a, a:active, a:hover {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*grid styles*/
+.flex {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.row {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    box-orient: horizontal;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.justify-content-center, .flex.justify-content-center {
+    justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+    .col-xs-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-5 {
+        max-width: 41.667%;
+        -ms-flex: 0 0 41.667%;
+        flex: 0 0 41.667%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+
+.wrapper {
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    background: white;
+    padding: 30px 0;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}

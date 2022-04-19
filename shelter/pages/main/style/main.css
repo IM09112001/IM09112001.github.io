@@ -1,0 +1,156 @@
+/*@media only screen and (max-width: 768px) {*/
+/*    center{*/
+/*        width: auto;*/
+/*        margin: auto;*/
+/*    }*/
+/*    * {*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+
+/*    div.main__info {*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+
+/*    id#main__window {*/
+/*        min-height: 1165px;*/
+/*    }*/
+/*}*/
+
+/*
+@media screen and (min-width: 576px) {
+    .col-xs-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-5 {
+        max-width: 41.667%;
+        -ms-flex: 0 0 41.667%;
+        flex: 0 0 41.667%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media (min-width: 576px) {
+    .center {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .center {
+        max-width: 720px;
+    }
+
+    /*Navigation*
+    .nav-menu ul li {
+        padding: 0 0.625em;
+    }
+}
+
+@media (min-width: 992px) {
+    .center {
+        max-width: 960px;
+    }
+
+    #footer .row div:first-child {
+        margin-right: 3em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .center {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 768px) {
+    header#header {
+        padding: 1em 0;
+    }
+
+    #main_window {
+        background-image: linear-gradient(146deg, #544532, #333);
+    }
+
+    /*Mobile Navigation*
+    .nav-menu ul {
+        position: absolute;
+        top: -300px;
+        left: 0;
+        right: 0;
+        transition: all 0.6s ease-in-out;
+        background-color: white;
+        opacity: 0;
+    }
+
+    .nav-menu ul li {
+        position: relative;
+        text-align: center;
+        padding: 1rem;
+        display: block
+    }
+
+    .nav-menu ul li:not(:first-child)::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        content: "";
+        height: 2px;
+        background-color: #333;
+    }
+
+    .nav-menu ul li a {
+        color: #292929;
+    }
+
+    .nav-menu ul li:hover a {
+        color: #eac99f;
+    }
+
+    .nav-menu ul li a[class="active"] {
+        color: #292929;
+    }
+
+    #mobile-toggle-btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pets {
+        width: 250px;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .slider__btn {
+        display: block;
+    }
+
+    .slider__cards {
+        transform: translateX(calc(100% + 2em)); /*hack :( *
+    }
+}
+
+ */

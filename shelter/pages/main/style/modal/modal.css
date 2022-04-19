@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.modal {
+  width: 952px;
+  height: 552px;
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  visibility: hidden;
+}
+.modal_active {
+  visibility: visible;
+}
+.modal_active ~ .modal-bg {
+  visibility: visible;
+}
+.modal__scroll {
+  height: 487px;
+  overflow: hidden scroll;
+  padding: 0 17px;
+  margin-bottom: 25px;
+}
+.modal__close-btn {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  margin-left: 0;
+}
+.modal__info {
+  align-self: flex-end;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+  background-color: #fff;
+  border-radius: 20px;
+  width: 900px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.modal__info_left {
+  height: 500px;
+  width: 500px;
+}
+.modal__info_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 351px;
+  max-height: 362px;
+}
+.modal__info_right * {
+  position: relative;
+  color: black;
+}
+.modal__info_right-title h4 {
+  margin-top: 10px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+}
+.modal__info_right-content {
+  width: 350px;
+}
+.modal__info_right-content h5 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+}
+.modal__info_right .cv-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 170px;
+  height: 102px;
+  list-style: none;
+}
+.modal__info_right .cv-list ul li::before {
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "•";
+  color: #F1CDB3;
+}
+.modal__bg {
+  visibility: hidden;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.55;
+  width: 100vw;
+  height: 150vh;
+  background: rgba(41, 41, 41, 0.6);
+}
+
+/*# sourceMappingURL=modal.css.map */
